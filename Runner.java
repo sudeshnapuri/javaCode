@@ -33,7 +33,7 @@ public class Runner {
 	BankAccount.hello();	
 		
 // CALL NON STATIC METHOD
-//	CREATE INSTANCE FIRST
+//	USE INSTANCE FROM ABOVE
 	
 	bank3.sortCode();
 	}
