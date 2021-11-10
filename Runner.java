@@ -29,5 +29,12 @@ public class Runner {
 		
 		System.out.println(bank.getAccountNumber());
 		
+// CALL STATIC METHOD
+	BankAccount.hello();	
+		
+// CALL NON STATIC METHOD
+//	CREATE INSTANCE FIRST
+	
+	bank3.sortCode();
 	}
 }

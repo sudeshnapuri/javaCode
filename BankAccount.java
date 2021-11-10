@@ -39,13 +39,16 @@ public class BankAccount {
 		this.sortCode = sortCode;
 		this.accountHolder = accountHolder;
 	}
-	
+
 //	METHODS
+//	NON STATIC
+	
+	public void sortCode() {
+		System.out.println("Hello, my sort code is " + sortCode);
+	}
+	
 //	STATIC
-	
-	
-//	NOT STATIC
-	
-	
-	
+	public static void hello() {
+		System.out.println("Hello");
+	}
 }
